@@ -53,6 +53,7 @@ dire_fecha = sorted(dire, key=lambda dat: os.path.getmtime(sys.argv[2]+dat))
 
 
 result=[]
+python prueba.py 9 '/home/andy'
 
 for e in dire_ord:
 
